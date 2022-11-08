@@ -1,5 +1,10 @@
 # Databricks notebook source
 # MAGIC %md
+# MAGIC This is a test commit
+
+# COMMAND ----------
+
+# MAGIC %md
 # MAGIC **NOTE**: the following cell _**should**_ fail.
 # MAGIC 
 # MAGIC Relative imports of Python libraries are currently not supported. ([Custom libraries can be uploaded to the workspace or installed from PyPi](https://docs.databricks.com/libraries/workspace-libraries.html).)
@@ -24,11 +29,6 @@ from my_lib.my_funcs import *
 # COMMAND ----------
 
 # MAGIC %run ./my_lib/my_funcs
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC The remainder of this notebook demonstrates using the functions declared in the referenced `my_funcs` Python file.
 
 # COMMAND ----------
 
